@@ -1,0 +1,96 @@
+* {
+    color: black;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    text-decoration: none;
+}
+
+/* Navbar styling */
+nav, footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.icon {
+    border-radius: 25px;
+    width: 25px;
+}
+
+.side {
+    align-items: center;
+    display: flex;
+    margin: 0;
+}
+
+.side > * {
+    font-size: 14px;
+    padding: 10px;
+}
+
+#apps:hover {
+    filter: invert(10%) sepia(79%) saturate(6992%) hue-rotate(247deg) brightness(97%) contrast(149%);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Search section styling */
+.button {
+    border-radius: 5px;
+    color: gray;
+    background-color: rgb(230, 230, 230);
+    padding: 10px 20px 10px 20px;
+    margin: 0px 10px 0px 10px;
+}
+
+
+#container {
+    margin: auto;
+    width: 80%;
+}
+
+#container > * {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin: auto;
+}
+
+#google {
+    height: 263px;
+    width: 585px;
+}
+
+#search {
+    padding: 20px;
+}
+
+#search > input{
+    border: solid 0.5px gray;
+    border-radius: 20px;
+    outline: none;
+    font-size: 18px;
+    padding: 10px;
+    height: 18px;
+    width: 500px;
+    text-indent: 20px;
+}
+
+input:hover {
+    box-shadow: 0 1px 10px rgba(0,0,0,0.3);
+}
+
+/* Footer styling */
+footer {
+    position: absolute;
+    background-color: rgb(230, 230, 230);
+    padding: 5px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+footer > * > * {
+    color: gray;
+}
